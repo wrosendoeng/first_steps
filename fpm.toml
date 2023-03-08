@@ -1,0 +1,15 @@
+name = "Difusao_1D_Permanente"
+version = "0.1.0"
+license = "license"
+author = "Wallace Rosendo"
+maintainer = "wallace.rosendo@protonmail.com"
+copyright = "Copyright 2023, Jane Doe"
+[build]
+auto-executables = true
+auto-tests = true
+auto-examples = true
+[install]
+library = false
+[dependencies]
+stdlib = { git="https://github.com/fortran-lang/stdlib", branch="stdlib-fpm" }
+
